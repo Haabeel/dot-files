@@ -1,0 +1,255 @@
+
+{
+	// Menubar Visibility (VSCODE)
+	"window.menuBarVisibility": "toggle",
+
+	"window.density.editorTabHeight": "compact",
+
+	//Editor
+	"editor.tabSize": 2,
+	"editor.fontSize": 16,
+	"editor.lineHeight": 24,
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "Fira Code",
+	"editor.wordWrap": "on",
+	"editor.wrappingIndent": "same",
+	"editor.lineNumbers": "relative",
+	"editor.wordWrapColumn": 60,
+	"editor.folding": false,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": true,
+	"editor.suggestSelection": "first",
+	"editor.scrollBeyondLastLine": false,
+	"editor.renderControlCharacters": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.quickSuggestionsDelay": 0,
+	"editor.cursorBlinking": "solid",
+	"editor.glyphMargin": false,
+	"editor.bracketPairColorization.enabled": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.hideCursorInOverviewRuler": true,
+	"editor.unicodeHighlight.allowedCharacters": {
+		"?": true,
+		"?": true,
+		"?": true,
+		"?": true,
+		"?": true
+	},
+
+	//Editor settings for formatting
+	"editor.formatOnSave": true,
+	"workbench.startupEditor": "none",
+	"window.openFilesInNewWindow": "off",
+	"workbench.sideBar.location": "right",
+
+	// Terminal
+	"terminal.integrated.fontFamily": "'FiraCode Nerd Font', 'monospace', monospace",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.tabs.enabled": false,
+
+	//Explorer
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+
+	//Emmet
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.showExpandedAbbreviation": "never",
+
+	//Formatters
+	"prettier.semi": true,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": false,
+	"prettier.jsxSingleQuote": false,
+	"prettier.arrowParens": "avoid",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.inlineSuggest.enabled": true,
+
+	// Files settings
+	"files.associations": { "*.scss": "postcss", "*.module.scss": "postcss" },
+
+	//Prisma Formatter
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+
+	//Breadcrumbs Off
+	"breadcrumbs.enabled": false,
+
+	// Java/Typescript
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.quoteStyle": "double",
+	"javascript.preferences.quoteStyle": "double",
+	"javascript.format.semicolons": "insert",
+	"typescript.format.semicolons": "insert",
+	"typescript.suggest.paths": false,
+	"javascript.suggest.paths": false,
+
+	// Telemetry (VSCODE)
+	"telemetry.telemetryLevel": "off",
+	"vim.leader": "<space>",
+	"vim.easymotion": true,
+	"vim.incsearch": true,
+	"vim.useSystemClipboard": true,
+	"vim.useCtrlKeys": true,
+	"vim.hlsearch": true,
+	"vim.highlightedyank.enable": true,
+	"vim.insertModeKeyBindings": [
+		{
+			"before": ["j", "k"],
+			"after": ["<Esc>"]
+		}
+	],
+	"vim.normalModeKeyBindings": [
+		{
+			"before": ["g", "g"],
+			"commands": ["cursorTop"]
+		},
+		{
+			"before": ["<leader>", "s", "a"],
+			"commands": ["editor.action.selectAll"]
+		},
+		{
+			"before": ["<leader>", "w"],
+			"commands": ["workbench.action.files.save"]
+		},
+		{
+			"before": ["<leader>", "e"],
+			"commands": ["workbench.action.toggleSidebarVisibility"]
+		},
+		{
+			"before": ["<leader>", "q"],
+			"commands": ["workbench.action.closeActiveEditor"]
+		},
+		{
+			"before": ["<leader>", "h"],
+			"commands": [":nohl"]
+		},
+		{
+			"before": ["<leader>", "s", "v"],
+			"commands": ["workbench.action.splitEditor"]
+		},
+		{
+			"before": ["<leader>", "b", "d"],
+			"commands": ["workbench.action.closeActiveEditor"]
+		},
+		{
+			"before": ["<leader>", "b", "o"],
+			"commands": ["workbench.action.closeAllEditors"]
+		},
+		{
+			"before": ["<leader>", "s", "h"],
+			"commands": ["workbench.action.splitEditorDown"]
+		},
+		{
+			"before": ["<leader>", "t", "o"],
+			"commands": [":tabnew"]
+		},
+		{
+			"before": ["<leader>", "t", "x"],
+			"commands": [":tabclose"]
+		},
+		{
+			"before": ["<S-h>"],
+			"commands": [":tabp"]
+		},
+		{
+			"before": ["<S-l>"],
+			"commands": [":tabnext"]
+		},
+		{
+			"before": ["<leader>", "f", "f"],
+			"commands": ["workbench.action.quickOpen"]
+		},
+		{
+			"before": ["<leader>", "f", "b"],
+			"commands": ["workbench.action.showAllEditors"]
+		},
+		{
+			"before": ["<leader>", "f", "s"],
+			"commands": ["workbench.action.findInFiles"]
+		},
+		{
+			"before": ["<leader>", "r", "n"],
+			"commands": ["editor.action.rename"]
+		},
+		{
+			"before": ["<leader>", "a", "f"],
+			"commands": ["editor.action.autoFix"]
+		},
+		{
+			"before": ["<leader>", "f", "m"],
+			"commands": ["editor.action.format"]
+		},
+		{
+			"before": ["<leader>", "c", "a"],
+			"commands": ["editor.action.quickFix"]
+		},
+		{
+			"before": ["<S-k>"],
+			"commands": ["editor.action.showHover"]
+		}
+	],
+	"vim.visualModeKeyBindings": [
+		{
+			"before": [">"],
+			"commands": ["editor.action.indentLines"]
+		},
+		{
+			"before": ["<"],
+			"commands": ["editor.action.outdentLines"]
+		},
+		{
+			"before": ["<S-j>"],
+			"commands": ["editor.action.moveLinesDownAction"]
+		},
+		{
+			"before": ["<S-k>"],
+			"commands": ["editor.action.moveLinesUpAction"]
+		}
+	],
+
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+	"chat.commandCenter.enabled": false,
+	"github.copilot.nextEditSuggestions.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"*.ts": "${capture}.js",
+		"*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+		"*.jsx": "${capture}.js",
+		"*.tsx": "${capture}.ts",
+		"tsconfig.json": "tsconfig.*.json",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+		"*.sqlite": "${capture}.${extname}-*",
+		"*.db": "${capture}.${extname}-*",
+		"*.sqlite3": "${capture}.${extname}-*",
+		"*.db3": "${capture}.${extname}-*",
+		"*.sdb": "${capture}.${extname}-*",
+		"*.s3db": "${capture}.${extname}-*"
+	},
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.smoothScrolling": true,
+	"gitlens.graph.minimap.additionalTypes": [
+		"localBranches",
+		"stashes",
+		"remoteBranches",
+		"pullRequests",
+		"tags"
+	],
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"workbench.activityBar.location": "hidden",
+	"sqldeveloper.sqlHistory.historyLimit": 500,
+	"glassit.alpha": 255,
+	"workbench.iconTheme": "gruvbox-material-icons",
+	"workbench.colorTheme": "Gruvbox Dark Soft",
+	"workbench.colorCustomizations": {},
+	"terminal.integrated.gpuAcceleration": "off",
+	"window.systemColorTheme": "dark",
+	"window.autoDetectColorScheme": false,
+	"window.controlsStyle": "custom",
+	"window.titleBarStyle": "custom",
+	"editor.minimap.enabled": false,
+	"svelte.enable-ts-plugin": true
+}

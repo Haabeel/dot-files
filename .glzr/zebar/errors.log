@@ -1,0 +1,13 @@
+[2m2025-08-18T08:38:27.129593Z[0m [31mERROR[0m [2mzebar::widget_factory[0m[2m:[0m Failed to start widget on startup: No widget pack found for 'custom'.
+[2m2025-08-18T10:22:36.193398Z[0m [31mERROR[0m [2mzebar::widget_factory[0m[2m:[0m Failed to start widget on startup: No widget pack found for 'custom'.
+[2m2025-08-23T15:20:29.634888Z[0m [31mERROR[0m [2mzebar[0m[2m:[0m Failed to parse JSON from file: C:\Users\khalf\.glzr/zebar\settings.json
+
+Caused by:
+    expected value at line 4 column 3
+[2m2025-08-23T15:21:42.130390Z[0m [31mERROR[0m [2mzebar[0m[2m:[0m Failed to parse JSON from file: C:\Users\khalf\.glzr/zebar\settings.json
+
+Caused by:
+    expected value at line 4 column 3
+[2m2025-09-02T11:31:33.071488Z[0m [31mERROR[0m [2mzebar::widget_factory[0m[2m:[0m Failed to start widget on startup: No widget pack found for 'neobrutal-zebar'.
+[2m2025-09-02T11:41:14.789147Z[0m [31mERROR[0m [2mzebar::widget_factory[0m[2m:[0m Failed to start widget on startup: No widget pack found for 'neobrutal-zebar'.
+[2m2025-09-02T11:46:05.503536Z[0m [31mERROR[0m [2mzebar::widget_factory[0m[2m:[0m Failed to start widget on startup: No widget pack found for 'neobrutal-zebar'.

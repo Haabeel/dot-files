@@ -1,0 +1,60 @@
+:root {
+  /* sizes */
+  --height: 2.17rem;
+  --bar-margin-y: 5px;
+  --bar-margin-x: 5px;
+
+  /* fonts */
+  --font-family: "SF Pro Display", Roboto, Helvetica, Arial, sans-serif;
+  --font-size: 12px;
+  --font-weight: 500;
+
+  /* border */
+  --border-size: 0.125rem;
+  --radius: 0.25rem;
+
+  /* shadow */
+  --shadow-size-bar: 0;
+  --shadow-size-button: 0.125rem;
+
+  /* colors (mapped to Gruvbox) */
+  --text: var(--gb-light1); /* readable foreground */
+  --bg: var(--gb-dark0); /* base background */
+  --border: var(--gb-dark2); /* subtle border */
+  --shadow: var(--gb-dark2);
+
+  --power: var(--gb-bright-red);
+  --restart: var(--gb-bright-blue);
+  --memory: var(--gb-bright-purple);
+  --memory-medium: var(--gb-bright-yellow);
+  --memory-high: var(--gb-bright-red);
+
+  --cpu: var(--gb-bright-orange);
+  --cpu-high-usage: var(--gb-bright-red);
+
+  --battery-good: var(--gb-bright-green);
+  --battery-mid: var(--gb-bright-yellow);
+  --battery-low: var(--gb-bright-red);
+
+  --volume-muted: var(--gb-bright-blue);
+  --volume-low: var(--gb-bright-purple);
+  --volume-medium: var(--gb-bright-green);
+  --volume-high: var(--gb-bright-orange);
+
+  --focused-process: var(--gb-light1);
+  --process: var(--gb-gray);
+
+  --displayed: var(--gb-light1);
+
+  --ws-1: var(--gb-bright-yellow);
+  --ws-2: var(--gb-bright-red);
+  --ws-3: var(--gb-bright-green);
+  --ws-4: var(--gb-bright-blue);
+  --ws-5: var(--gb-bright-purple);
+
+  --tiling-direction: var(--gb-bright-orange);
+  --add-workspace: var(--gb-bright-blue);
+
+  --not-playing: var(--gb-bright-red);
+  --now-playing: var(--gb-bright-green);
+}
